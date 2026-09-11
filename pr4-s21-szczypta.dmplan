@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "exported_at": "2026-09-11T00:00:00.000Z",
+  "app_version": "1.0.3",
+  "ingredients": [
+    {
+      "id": "smoke-zzyx-szczypta",
+      "name": "Zzyx przyprawa kosmiczna",
+      "defaultUnit": "szczypta",
+      "category": "Inne"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "smoke-pr4-s21",
+      "name": "PR4 S21 test szczypta",
+      "baseServings": 1,
+      "prepTime": 5,
+      "instructions": "Smoke fixture PR-4 S21 - skladnik o zerowej wadze (szczypta), nazwa spoza slownika.",
+      "mealTypes": ["snack"],
+      "ingredients": [
+        {
+          "ingredientId": "smoke-zzyx-szczypta",
+          "quantity": 1.0,
+          "unit": "szczypta"
+        }
+      ],
+      "isFavorite": false,
+      "usageCount": 0
+    }
+  ],
+  "plan": [],
+  "settings": {},
+  "shopping_checked": []
+}
